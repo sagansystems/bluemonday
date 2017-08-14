@@ -37,7 +37,7 @@ import (
 
 	"golang.org/x/net/html"
 
-	cssparser "github.com/aymerick/douceur/parser"
+	cssparser "github.com/sagansystems/douceur/parser"
 )
 
 // Sanitize takes a string that contains a HTML fragment or document and applies
