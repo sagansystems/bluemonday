@@ -1554,7 +1554,7 @@ func TestAllowStyles(t *testing.T) {
 			expected: `<div style="">no xss</div>`,
 		},
 		{
-			in:       `<div style="text-align: right !important;)">no xss</div>`,
+			in:       `<div style="text-align: right !important;">no xss</div>`,
 			expected: `<div style="text-align: right !important;">no xss</div>`,
 		},
 	}
